@@ -30,6 +30,20 @@ SinghFlow sends your speech to your own Azure resources. You need:
 
 In SinghFlow, click the menu bar icon > **Settings > Azure**, enter each resource's address and key, and change the deployment names if yours differ. Keys are stored in your Keychain only.
 
+## Without Azure
+
+Without Azure keys, only English dictation works, and only on macOS 26:
+
+- In **Models & Cost**, set Transcription to **Apple on-device**. The speech stays on your Mac. Names and technical terms come out less accurately.
+- Set Cleanup to **Apple Intelligence**. This needs Apple Intelligence turned on in System Settings. Otherwise your words are typed as heard, with no cleanup.
+
+These need Azure:
+
+- Punjabi dictation. Apple's on-device speech has no Punjabi, so Punjabi speech comes out in English letters, not Gurmukhi.
+- Polish and Prompt Engineer (rewriting selected text).
+- Meeting transcripts and notes.
+- Everything on macOS 15.
+
 ## Use it
 
 - Hold **Control + Option + Space**, speak, release: the text goes where your cursor is.
